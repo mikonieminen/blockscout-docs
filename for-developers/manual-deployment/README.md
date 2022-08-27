@@ -77,8 +77,8 @@ Be careful since it will delete all data from the DB. Don't execute it on produc
 
 11\) Install Node.js dependencies
 
-* `cd apps/block_scout_web/assets; npm install && node_modules/webpack/bin/webpack.js --mode production; cd -`
-* `cd apps/explorer && npm install; cd -`
+* `cd apps/block_scout_web/assets; npm ci && node_modules/webpack/bin/webpack.js --mode production; cd -`
+* `cd apps/explorer && npm ci; cd -`
 
 12\) Build static assets for deployment `mix phx.digest`
 

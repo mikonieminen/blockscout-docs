@@ -9,7 +9,7 @@ Note: if you've previously deployed and are updating your BlockScout version wit
 
 In order to rebuild new front-end assets run:
 
-1. `cd apps/block_scout_web/assets; npm install && node_modules/webpack/bin/webpack.js --mode production; cd -`
+1. `cd apps/block_scout_web/assets; npm ci && node_modules/webpack/bin/webpack.js --mode production; cd -`
 2. `mix phx.digest`
 {% endhint %}
 
